@@ -10,6 +10,9 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
   background-color: var(--background-color-body);
 }
 
@@ -47,7 +50,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .footer {
@@ -59,23 +61,21 @@ body {
 }
 
 .header-logo > span {
-  color: #2196f3;
+  color: var(--secondary-accent-color);
 }
 .header-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
 
 .link.current {
-  color: #2196f3;
+  color: var(--secondary-accent-color);
 }
 
 .header-contacts-link {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
@@ -106,17 +106,12 @@ body {
 
 .features-item-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-title-color);
 }
 
 .features-item-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
@@ -125,8 +120,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
 }
 
 .team-title {
@@ -134,8 +127,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
 }
 .team-member {
   text-align: center;
@@ -145,13 +136,10 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
 }
 .team-member-text {
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
@@ -164,7 +152,7 @@ body {
 }
 
 .footer-logo > span {
-  color: #2196f3;
+  color: var(--secondary-accent-color);
 }
 .footer-link {
   font-style: normal;
@@ -183,8 +171,6 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
   background-color: var(--background-color-section);
 }
 
@@ -205,6 +191,5 @@ body {
 .projects-link-text {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
